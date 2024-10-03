@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+   <head>
+    <h1>Event Registration Form</h1>
+   </head>
+   <body>
+      <p>Student Name <input></p>
+      <p>Student USN <input></p>
+      <p>Branch <input></p>
+      <p>Event 1 </p>
+      <select name="event1" id="event1">
+        <option value="Publication">Publication</option>
+        <option value="Orientation">Orientation</option>
+      </select>
+      <p>Event 2 </p>
+      <select name="event2" id="event2">
+        <option value="Cultural">Cultural</option>
+        <option value="Sports">Sports</option>
+      </select>
+   </body>
+   <footer>
+    <button onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+</footer>
+<script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Success";
+    }
+    </script>
+</html>
